@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px violet;
+    transform: translate(100px,50px);
+    transform: rotate(45deg);
+    margin:100px;
+    transform: scale(2,2);
+    transform: skew(50deg);
+    /*transform: matrix(1,2,3,4,4);*/
+}

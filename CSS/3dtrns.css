@@ -1,0 +1,16 @@
+div{
+    height:100px;
+    width:100px;
+    border:4px solid gray;
+    background-color: blueviolet;
+}
+
+#b1{
+    transform:perspective(15px) translateZ(-1.8px);
+}
+
+#b2{
+    margin-left: 200px;
+    transform: perspective(358px) scalez(6) rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+    transform:rotateZ(30deg);
+}

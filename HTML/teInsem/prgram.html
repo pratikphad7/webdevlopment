@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome in JavaScript
+        </title>
+
+        <script>
+            function fun(){
+                var pwd=document.getElementById("pwd");
+                var name=document.getElementsByName("name");
+
+                if(name==""){
+                    alert("you have not enterd password");
+                    pwd.focus();
+                    return false;
+                }else if(pwd==""){
+                    alert("you have not enterd userName");
+                    name.focus();
+                    return false;
+                }else{
+                    alert("Congratulations!!!");
+                    return true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <lable>Enter your name<br>
+            <input type="text" value="" id="name"/>
+            </lable>
+            <label><br>Enter Password<br>
+            <input type="password" value="" id="pwd"/>
+            </label>
+            <input type="button" onsubmit="fun();"/> <button onsubmit="fun();">submit</button>
+            <input type="reset" value="reset" name="reset">
+        </form>
+    </body>
+</html>

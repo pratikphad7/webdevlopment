@@ -1,0 +1,41 @@
+.box{
+    height:100px;
+    width:100px;
+    border:2px solid rgb(221, 11, 137);
+    background-color: blue;
+
+    position:relative;
+    left:50px;
+    top:10px;
+
+    display: inline-block;
+}
+
+#b2{
+    position:relative;
+    top:100px;
+    left:110px;
+}
+
+#b4{
+    position:absolute;
+    top:100px;
+    left:50px;
+}
+
+#b4{
+    position:sticky;
+    left:100px;
+}
+
+#b3{
+    position:fixed;
+}
+
+
+
+#w1{
+    height: 2000px;
+    width:100vw;
+    background-color: darkmagenta;
+}
